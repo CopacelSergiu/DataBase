@@ -115,13 +115,6 @@ void openDatabaseContentPage(const QString& databaseName) {
         QMessageBox::warning(nullptr, "Error", "Database '" + databaseName + "' does not exist.");
     }
 }
-
-// Restul codului rămâne neschimbat
-
-
-
-
-
 // Funcție pentru crearea și salvarea bazei de date
 void createDatabase(const QString& databaseName) {
     if (databases.contains(databaseName)) {
